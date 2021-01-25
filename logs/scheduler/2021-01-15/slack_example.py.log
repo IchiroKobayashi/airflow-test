@@ -1,0 +1,198 @@
+[2021-01-15 10:59:01,033] {scheduler_job.py:155} INFO - Started process (PID=17788) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 10:59:01,041] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 10:59:01,041] {logging_mixin.py:112} INFO - [2021-01-15 10:59:01,041] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 10:59:01,049] {logging_mixin.py:112} INFO - [2021-01-15 10:59:01,048] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 10:59:01,049] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 10:59:01,058] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.025 seconds
+[2021-01-15 10:59:53,158] {scheduler_job.py:155} INFO - Started process (PID=17817) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 10:59:53,164] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 10:59:53,165] {logging_mixin.py:112} INFO - [2021-01-15 10:59:53,165] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 10:59:53,168] {logging_mixin.py:112} INFO - [2021-01-15 10:59:53,168] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 10:59:53,168] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 10:59:53,177] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.018 seconds
+[2021-01-15 11:06:03,342] {scheduler_job.py:155} INFO - Started process (PID=17936) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:06:03,350] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:06:03,352] {logging_mixin.py:112} INFO - [2021-01-15 11:06:03,351] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:06:03,361] {logging_mixin.py:112} INFO - [2021-01-15 11:06:03,359] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:06:03,361] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:06:03,371] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.029 seconds
+[2021-01-15 11:06:55,480] {scheduler_job.py:155} INFO - Started process (PID=17967) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:06:55,492] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:06:55,493] {logging_mixin.py:112} INFO - [2021-01-15 11:06:55,492] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:06:55,495] {logging_mixin.py:112} INFO - [2021-01-15 11:06:55,495] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:06:55,496] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:06:55,504] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.024 seconds
+[2021-01-15 11:07:47,639] {scheduler_job.py:155} INFO - Started process (PID=17999) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:07:47,646] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:07:47,647] {logging_mixin.py:112} INFO - [2021-01-15 11:07:47,647] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:07:47,651] {logging_mixin.py:112} INFO - [2021-01-15 11:07:47,650] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:07:47,651] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:07:47,661] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.022 seconds
+[2021-01-15 11:08:39,768] {scheduler_job.py:155} INFO - Started process (PID=18039) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:08:39,775] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:08:39,776] {logging_mixin.py:112} INFO - [2021-01-15 11:08:39,776] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:08:39,780] {logging_mixin.py:112} INFO - [2021-01-15 11:08:39,779] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:08:39,780] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:08:39,789] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.021 seconds
+[2021-01-15 11:09:18,193] {scheduler_job.py:155} INFO - Started process (PID=18067) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:09:18,201] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:09:18,202] {logging_mixin.py:112} INFO - [2021-01-15 11:09:18,202] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:09:18,210] {logging_mixin.py:112} INFO - [2021-01-15 11:09:18,209] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:09:18,211] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:09:18,220] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.027 seconds
+[2021-01-15 11:10:10,343] {scheduler_job.py:155} INFO - Started process (PID=18104) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:10:10,354] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:10:10,355] {logging_mixin.py:112} INFO - [2021-01-15 11:10:10,354] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:10:10,358] {logging_mixin.py:112} INFO - [2021-01-15 11:10:10,357] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:10:10,359] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:10:10,366] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.024 seconds
+[2021-01-15 11:11:02,506] {scheduler_job.py:155} INFO - Started process (PID=18136) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:11:02,514] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:11:02,515] {logging_mixin.py:112} INFO - [2021-01-15 11:11:02,515] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:11:02,521] {logging_mixin.py:112} INFO - [2021-01-15 11:11:02,519] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:11:02,521] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:11:02,531] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.024 seconds
+[2021-01-15 11:11:54,660] {scheduler_job.py:155} INFO - Started process (PID=18168) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:11:54,667] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:11:54,668] {logging_mixin.py:112} INFO - [2021-01-15 11:11:54,668] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:11:54,672] {logging_mixin.py:112} INFO - [2021-01-15 11:11:54,671] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:11:54,673] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:11:54,684] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.024 seconds
+[2021-01-15 11:12:46,806] {scheduler_job.py:155} INFO - Started process (PID=18200) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:12:46,813] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:12:46,813] {logging_mixin.py:112} INFO - [2021-01-15 11:12:46,813] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:12:46,818] {logging_mixin.py:112} INFO - [2021-01-15 11:12:46,816] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:12:46,818] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:12:46,826] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.020 seconds
+[2021-01-15 11:13:38,982] {scheduler_job.py:155} INFO - Started process (PID=18246) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:13:38,990] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:13:38,991] {logging_mixin.py:112} INFO - [2021-01-15 11:13:38,991] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:13:38,996] {logging_mixin.py:112} INFO - [2021-01-15 11:13:38,995] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:13:38,996] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:13:39,006] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.024 seconds
+[2021-01-15 11:14:31,112] {scheduler_job.py:155} INFO - Started process (PID=18279) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:14:31,123] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:14:31,124] {logging_mixin.py:112} INFO - [2021-01-15 11:14:31,123] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:14:31,129] {logging_mixin.py:112} INFO - [2021-01-15 11:14:31,127] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:14:31,130] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:14:31,143] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.031 seconds
+[2021-01-15 11:15:23,251] {scheduler_job.py:155} INFO - Started process (PID=18314) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:15:23,257] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:15:23,258] {logging_mixin.py:112} INFO - [2021-01-15 11:15:23,258] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:15:23,262] {logging_mixin.py:112} INFO - [2021-01-15 11:15:23,261] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:15:23,263] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:15:23,271] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.020 seconds
+[2021-01-15 11:16:15,406] {scheduler_job.py:155} INFO - Started process (PID=18345) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:16:15,415] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:16:15,415] {logging_mixin.py:112} INFO - [2021-01-15 11:16:15,415] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:16:15,420] {logging_mixin.py:112} INFO - [2021-01-15 11:16:15,418] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:16:15,420] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:16:15,428] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.022 seconds
+[2021-01-15 11:17:07,550] {scheduler_job.py:155} INFO - Started process (PID=18380) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:17:07,559] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 11:17:07,560] {logging_mixin.py:112} INFO - [2021-01-15 11:17:07,559] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:17:07,565] {logging_mixin.py:112} INFO - [2021-01-15 11:17:07,563] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 11:17:07,566] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 11:17:07,575] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.025 seconds
+[2021-01-15 12:26:02,006] {scheduler_job.py:155} INFO - Started process (PID=3846) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 12:26:02,013] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 12:26:02,014] {logging_mixin.py:112} INFO - [2021-01-15 12:26:02,014] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 12:26:02,023] {logging_mixin.py:112} INFO - [2021-01-15 12:26:02,021] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 12:26:02,023] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 12:26:02,033] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.027 seconds
+[2021-01-15 12:26:54,146] {scheduler_job.py:155} INFO - Started process (PID=3885) to work on /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 12:26:54,153] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/slack_example.py for tasks to queue
+[2021-01-15 12:26:54,154] {logging_mixin.py:112} INFO - [2021-01-15 12:26:54,153] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 12:26:54,157] {logging_mixin.py:112} INFO - [2021-01-15 12:26:54,156] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/slack_example.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/slack_example.py", line 8
+SyntaxError: Non-ASCII character '\xe5' in file /Users/ichiro/airflow/dags/slack_example.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2021-01-15 12:26:54,158] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/slack_example.py
+[2021-01-15 12:26:54,195] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/slack_example.py took 0.049 seconds

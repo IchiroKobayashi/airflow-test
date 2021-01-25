@@ -1,0 +1,5 @@
+[2021-01-15 13:51:34,069] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 13:51:34,069] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'fail_py', '2018-12-15T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 13:51:34,070] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'fail_py', '2018-12-15T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 13:51:35,709] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.fail_py 2018-12-15T00:00:00+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_tasks_state={'skipped': 0, 'successes': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0, 'total': 1}, upstream_task_ids=set(['success_py'])
+[2021-01-15 13:51:35,709] {local_task_job.py:90} INFO - Task is not able to be run

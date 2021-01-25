@@ -1,0 +1,40 @@
+[2021-01-15 14:06:15,281] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 14:06:15,282] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:06:15,282] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:06:16,898] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 14:06:16,899] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 14:10:00,975] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 14:10:00,976] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:10:00,976] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:10:02,849] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 14:10:02,849] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 14:17:05,509] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 14:17:05,510] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:17:05,511] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:17:07,202] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 14:17:07,203] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 14:19:22,986] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 14:19:22,986] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:19:22,987] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:19:24,586] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 14:19:24,586] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 14:36:53,779] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 14:36:53,780] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:36:53,781] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:36:55,411] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 14:36:55,412] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 14:46:58,116] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 14:46:58,117] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:46:58,117] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:46:59,839] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 14:46:59,839] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 14:49:18,020] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 14:49:18,021] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:49:18,021] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 14:49:19,702] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 14:49:19,705] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 15:12:15,852] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 15:12:15,854] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 15:12:15,854] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'slack_dag', 'success_py', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/slack_noti.py']
+[2021-01-15 15:12:17,468] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: slack_dag.success_py 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 15:12:17,468] {local_task_job.py:90} INFO - Task is not able to be run

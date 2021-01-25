@@ -1,0 +1,622 @@
+[2021-01-15 13:49:26,681] {scheduler_job.py:155} INFO - Started process (PID=4647) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 13:49:26,687] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 13:49:26,689] {logging_mixin.py:112} INFO - [2021-01-15 13:49:26,688] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 13:49:26,699] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 13:49:26,716] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.035 seconds
+[2021-01-15 14:22:48,612] {scheduler_job.py:155} INFO - Started process (PID=5081) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:22:48,620] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 14:22:48,621] {logging_mixin.py:112} INFO - [2021-01-15 14:22:48,621] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:22:48,633] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:22:48,650] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 14:29:05,932] {scheduler_job.py:155} INFO - Started process (PID=5268) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:29:05,939] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 14:29:05,940] {logging_mixin.py:112} INFO - [2021-01-15 14:29:05,940] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:29:05,950] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:29:05,967] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 14:30:55,233] {scheduler_job.py:155} INFO - Started process (PID=5364) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:30:55,241] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 14:30:55,242] {logging_mixin.py:112} INFO - [2021-01-15 14:30:55,241] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:30:55,254] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:30:55,274] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.041 seconds
+[2021-01-15 14:41:35,019] {scheduler_job.py:155} INFO - Started process (PID=5563) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:41:35,041] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 14:41:35,042] {logging_mixin.py:112} INFO - [2021-01-15 14:41:35,042] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:41:35,054] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:41:35,072] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.053 seconds
+[2021-01-15 14:42:29,160] {scheduler_job.py:155} INFO - Started process (PID=5608) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:42:29,168] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 14:42:29,169] {logging_mixin.py:112} INFO - [2021-01-15 14:42:29,168] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:42:29,176] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 14:42:29,197] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.037 seconds
+[2021-01-15 15:23:06,347] {scheduler_job.py:155} INFO - Started process (PID=6580) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:23:06,359] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:23:06,360] {logging_mixin.py:112} INFO - [2021-01-15 15:23:06,360] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:23:06,372] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:23:06,390] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.042 seconds
+[2021-01-15 15:24:02,505] {scheduler_job.py:155} INFO - Started process (PID=6616) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:24:02,512] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:24:02,513] {logging_mixin.py:112} INFO - [2021-01-15 15:24:02,513] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:24:02,520] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:24:02,537] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.031 seconds
+[2021-01-15 15:24:58,659] {scheduler_job.py:155} INFO - Started process (PID=6663) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:24:58,665] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:24:58,666] {logging_mixin.py:112} INFO - [2021-01-15 15:24:58,666] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:24:58,673] {scheduler_job.py:1584} INFO - DAG(s) ['tutorial'] retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:24:58,689] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.031 seconds
+[2021-01-15 15:41:21,721] {scheduler_job.py:154} INFO - Started process (PID=6937) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:41:21,740] {logging_mixin.py:112} INFO - [2021-01-15 15:41:21,740] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:41:21,740] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:41:21,741] {logging_mixin.py:112} INFO - [2021-01-15 15:41:21,741] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:41:21,745] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:41:21,755] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 15:42:17,907] {scheduler_job.py:154} INFO - Started process (PID=6984) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:42:17,922] {logging_mixin.py:112} INFO - [2021-01-15 15:42:17,922] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:42:17,923] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:42:17,923] {logging_mixin.py:112} INFO - [2021-01-15 15:42:17,923] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:42:17,926] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:42:17,935] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.028 seconds
+[2021-01-15 15:43:14,017] {scheduler_job.py:154} INFO - Started process (PID=7015) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:43:14,032] {logging_mixin.py:112} INFO - [2021-01-15 15:43:14,032] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:43:14,033] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:43:14,033] {logging_mixin.py:112} INFO - [2021-01-15 15:43:14,033] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:43:14,035] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:43:14,044] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.027 seconds
+[2021-01-15 15:47:16,485] {scheduler_job.py:154} INFO - Started process (PID=7254) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:47:16,500] {logging_mixin.py:112} INFO - [2021-01-15 15:47:16,500] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:47:16,500] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:47:16,500] {logging_mixin.py:112} INFO - [2021-01-15 15:47:16,500] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:47:16,502] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:47:16,510] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.026 seconds
+[2021-01-15 15:48:12,718] {scheduler_job.py:154} INFO - Started process (PID=7360) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:48:12,735] {logging_mixin.py:112} INFO - [2021-01-15 15:48:12,734] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:48:12,735] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:48:12,736] {logging_mixin.py:112} INFO - [2021-01-15 15:48:12,736] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:48:12,739] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:48:12,748] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.031 seconds
+[2021-01-15 15:49:08,776] {scheduler_job.py:154} INFO - Started process (PID=7393) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:49:08,791] {logging_mixin.py:112} INFO - [2021-01-15 15:49:08,790] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:49:08,791] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:49:08,791] {logging_mixin.py:112} INFO - [2021-01-15 15:49:08,791] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:49:08,793] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:49:08,802] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.026 seconds
+[2021-01-15 15:50:04,978] {scheduler_job.py:154} INFO - Started process (PID=7447) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:50:04,993] {logging_mixin.py:112} INFO - [2021-01-15 15:50:04,993] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:50:04,994] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:50:04,994] {logging_mixin.py:112} INFO - [2021-01-15 15:50:04,994] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:50:04,996] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:50:05,004] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.026 seconds
+[2021-01-15 15:51:01,130] {scheduler_job.py:154} INFO - Started process (PID=7491) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:51:01,147] {logging_mixin.py:112} INFO - [2021-01-15 15:51:01,146] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:51:01,147] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:51:01,147] {logging_mixin.py:112} INFO - [2021-01-15 15:51:01,147] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:51:01,149] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:51:01,159] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.029 seconds
+[2021-01-15 15:51:57,317] {scheduler_job.py:154} INFO - Started process (PID=7528) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:51:57,332] {logging_mixin.py:112} INFO - [2021-01-15 15:51:57,332] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:51:57,332] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:51:57,333] {logging_mixin.py:112} INFO - [2021-01-15 15:51:57,333] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:51:57,334] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:51:57,346] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.030 seconds
+[2021-01-15 15:52:53,519] {scheduler_job.py:154} INFO - Started process (PID=7566) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:52:53,535] {logging_mixin.py:112} INFO - [2021-01-15 15:52:53,534] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:52:53,535] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:52:53,535] {logging_mixin.py:112} INFO - [2021-01-15 15:52:53,535] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:52:53,537] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:52:53,545] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.026 seconds
+[2021-01-15 15:53:49,670] {scheduler_job.py:154} INFO - Started process (PID=7600) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:53:49,686] {logging_mixin.py:112} INFO - [2021-01-15 15:53:49,686] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:53:49,687] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:53:49,687] {logging_mixin.py:112} INFO - [2021-01-15 15:53:49,687] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:53:49,688] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:53:49,698] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.029 seconds
+[2021-01-15 15:54:45,934] {scheduler_job.py:154} INFO - Started process (PID=7639) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:54:45,954] {logging_mixin.py:112} INFO - [2021-01-15 15:54:45,954] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:54:45,955] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:54:45,955] {logging_mixin.py:112} INFO - [2021-01-15 15:54:45,955] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:54:45,958] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:54:45,971] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 15:55:42,048] {scheduler_job.py:154} INFO - Started process (PID=7674) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:55:42,067] {logging_mixin.py:112} INFO - [2021-01-15 15:55:42,067] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:55:42,068] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:55:42,068] {logging_mixin.py:112} INFO - [2021-01-15 15:55:42,068] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:55:42,070] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:55:42,079] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.031 seconds
+[2021-01-15 15:56:38,112] {scheduler_job.py:154} INFO - Started process (PID=7714) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:56:38,126] {logging_mixin.py:112} INFO - [2021-01-15 15:56:38,126] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:56:38,127] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:56:38,127] {logging_mixin.py:112} INFO - [2021-01-15 15:56:38,127] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:56:38,129] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:56:38,138] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.026 seconds
+[2021-01-15 15:57:34,281] {scheduler_job.py:154} INFO - Started process (PID=7746) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:57:34,297] {logging_mixin.py:112} INFO - [2021-01-15 15:57:34,297] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:57:34,298] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:57:34,298] {logging_mixin.py:112} INFO - [2021-01-15 15:57:34,298] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:57:34,299] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:57:34,309] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.028 seconds
+[2021-01-15 15:58:30,502] {scheduler_job.py:154} INFO - Started process (PID=7781) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:58:30,517] {logging_mixin.py:112} INFO - [2021-01-15 15:58:30,517] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:58:30,518] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:58:30,518] {logging_mixin.py:112} INFO - [2021-01-15 15:58:30,518] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:58:30,520] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:58:30,529] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.026 seconds
+[2021-01-15 15:59:26,669] {scheduler_job.py:154} INFO - Started process (PID=7815) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:59:26,683] {logging_mixin.py:112} INFO - [2021-01-15 15:59:26,683] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:59:26,684] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 15:59:26,684] {logging_mixin.py:112} INFO - [2021-01-15 15:59:26,684] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:59:26,685] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 15:59:26,694] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.025 seconds
+[2021-01-15 16:00:22,793] {scheduler_job.py:154} INFO - Started process (PID=7852) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:00:22,808] {logging_mixin.py:112} INFO - [2021-01-15 16:00:22,808] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:00:22,809] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:00:22,809] {logging_mixin.py:112} INFO - [2021-01-15 16:00:22,809] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:00:22,810] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:00:22,820] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.027 seconds
+[2021-01-15 16:01:18,915] {scheduler_job.py:154} INFO - Started process (PID=7904) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:01:18,930] {logging_mixin.py:112} INFO - [2021-01-15 16:01:18,930] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:01:18,931] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:01:18,931] {logging_mixin.py:112} INFO - [2021-01-15 16:01:18,931] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:01:18,933] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:01:18,941] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.026 seconds
+[2021-01-15 16:02:15,065] {scheduler_job.py:154} INFO - Started process (PID=7957) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:02:15,083] {logging_mixin.py:112} INFO - [2021-01-15 16:02:15,083] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:02:15,083] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:02:15,084] {logging_mixin.py:112} INFO - [2021-01-15 16:02:15,084] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:02:15,085] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:02:15,093] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.028 seconds
+[2021-01-15 16:03:11,385] {scheduler_job.py:154} INFO - Started process (PID=7994) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:03:11,400] {logging_mixin.py:112} INFO - [2021-01-15 16:03:11,400] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:03:11,401] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:03:11,401] {logging_mixin.py:112} INFO - [2021-01-15 16:03:11,401] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:03:11,403] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:03:11,413] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.029 seconds
+[2021-01-15 16:28:31,308] {scheduler_job.py:154} INFO - Started process (PID=8821) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:28:31,324] {logging_mixin.py:112} INFO - [2021-01-15 16:28:31,324] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:28:31,325] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:28:31,325] {logging_mixin.py:112} INFO - [2021-01-15 16:28:31,325] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:28:31,326] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:28:31,337] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:28:31,351] {scheduler_job.py:1298} INFO - Created <DagRun tutorial @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:28:31,352] {scheduler_job.py:771} INFO - Examining DAG run <DagRun tutorial @ 2021-01-13 00:00:00+00:00: scheduled__2021-01-13T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:28:31,357] {scheduler_job.py:771} INFO - Examining DAG run <DagRun tutorial @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:28:31,366] {scheduler_job.py:771} INFO - Examining DAG run <DagRun tutorial @ 2021-01-15 06:53:24.378406+00:00: manual__2021-01-15T06:53:24.378406+00:00, externally triggered: True>
+[2021-01-15 16:28:31,372] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:28:31,374] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: tutorial.sleep 2021-01-13 00:00:00+00:00 [scheduled]> in ORM
+[2021-01-15 16:28:31,376] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: tutorial.templated 2021-01-13 00:00:00+00:00 [scheduled]> in ORM
+[2021-01-15 16:28:31,378] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: tutorial.print_date 2021-01-14 00:00:00+00:00 [scheduled]> in ORM
+[2021-01-15 16:28:31,380] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: tutorial.sleep 2021-01-15 06:53:24.378406+00:00 [scheduled]> in ORM
+[2021-01-15 16:28:31,382] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: tutorial.templated 2021-01-15 06:53:24.378406+00:00 [scheduled]> in ORM
+[2021-01-15 16:28:31,386] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.077 seconds
+[2021-01-15 16:30:52,424] {scheduler_job.py:154} INFO - Started process (PID=8905) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:30:52,439] {logging_mixin.py:112} INFO - [2021-01-15 16:30:52,439] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:30:52,440] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:30:52,440] {logging_mixin.py:112} INFO - [2021-01-15 16:30:52,440] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:30:52,441] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:30:52,452] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:30:52,457] {scheduler_job.py:771} INFO - Examining DAG run <DagRun tutorial @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:30:52,462] {logging_mixin.py:112} INFO - [2021-01-15 16:30:52,462] {dagrun.py:307} INFO - Marking run <DagRun tutorial @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False> successful
+[2021-01-15 16:30:52,465] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:30:52,466] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.042 seconds
+[2021-01-15 16:32:18,013] {scheduler_job.py:154} INFO - Started process (PID=8962) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:32:18,030] {logging_mixin.py:112} INFO - [2021-01-15 16:32:18,029] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:32:18,030] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:32:18,030] {logging_mixin.py:112} INFO - [2021-01-15 16:32:18,030] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:32:18,032] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:32:18,042] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:32:18,049] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:32:18,051] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 16:33:14,357] {scheduler_job.py:154} INFO - Started process (PID=8995) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:33:14,373] {logging_mixin.py:112} INFO - [2021-01-15 16:33:14,373] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:33:14,374] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:33:14,374] {logging_mixin.py:112} INFO - [2021-01-15 16:33:14,374] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:33:14,377] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:33:14,388] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:33:14,394] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:33:14,396] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.039 seconds
+[2021-01-15 16:34:10,255] {scheduler_job.py:154} INFO - Started process (PID=9038) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:34:10,272] {logging_mixin.py:112} INFO - [2021-01-15 16:34:10,272] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:34:10,273] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:34:10,273] {logging_mixin.py:112} INFO - [2021-01-15 16:34:10,273] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:34:10,275] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:34:10,285] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:34:10,291] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:34:10,293] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 16:35:06,414] {scheduler_job.py:154} INFO - Started process (PID=9074) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:35:06,433] {logging_mixin.py:112} INFO - [2021-01-15 16:35:06,433] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:35:06,434] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:35:06,434] {logging_mixin.py:112} INFO - [2021-01-15 16:35:06,434] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:35:06,436] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:35:06,447] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:35:06,455] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:35:06,456] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.042 seconds
+[2021-01-15 16:36:07,831] {scheduler_job.py:154} INFO - Started process (PID=9121) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:36:07,847] {logging_mixin.py:112} INFO - [2021-01-15 16:36:07,847] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:36:07,847] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:36:07,847] {logging_mixin.py:112} INFO - [2021-01-15 16:36:07,847] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:36:07,849] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:36:07,860] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:36:07,866] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:36:07,868] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 16:37:09,042] {scheduler_job.py:154} INFO - Started process (PID=9166) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:37:09,058] {logging_mixin.py:112} INFO - [2021-01-15 16:37:09,058] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:37:09,058] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:37:09,058] {logging_mixin.py:112} INFO - [2021-01-15 16:37:09,058] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:37:09,060] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:37:09,070] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:37:09,075] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:37:09,076] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 16:38:10,373] {scheduler_job.py:154} INFO - Started process (PID=9202) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:38:10,387] {logging_mixin.py:112} INFO - [2021-01-15 16:38:10,387] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:38:10,388] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:38:10,388] {logging_mixin.py:112} INFO - [2021-01-15 16:38:10,388] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:38:10,389] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:38:10,400] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:38:10,406] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:38:10,407] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.035 seconds
+[2021-01-15 16:39:06,542] {scheduler_job.py:154} INFO - Started process (PID=9242) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:39:06,557] {logging_mixin.py:112} INFO - [2021-01-15 16:39:06,557] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:39:06,557] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:39:06,557] {logging_mixin.py:112} INFO - [2021-01-15 16:39:06,557] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:39:06,559] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:39:06,570] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:39:06,576] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:39:06,577] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.035 seconds
+[2021-01-15 16:40:02,764] {scheduler_job.py:154} INFO - Started process (PID=9284) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:40:02,779] {logging_mixin.py:112} INFO - [2021-01-15 16:40:02,779] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:40:02,780] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:40:02,780] {logging_mixin.py:112} INFO - [2021-01-15 16:40:02,780] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:40:02,781] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:40:02,791] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:40:02,796] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:40:02,798] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 16:40:58,864] {scheduler_job.py:154} INFO - Started process (PID=9326) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:40:58,878] {logging_mixin.py:112} INFO - [2021-01-15 16:40:58,878] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:40:58,879] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:40:58,879] {logging_mixin.py:112} INFO - [2021-01-15 16:40:58,879] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:40:58,880] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:40:58,892] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:40:58,898] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:40:58,899] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 16:41:55,141] {scheduler_job.py:154} INFO - Started process (PID=9366) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:41:55,156] {logging_mixin.py:112} INFO - [2021-01-15 16:41:55,156] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:41:55,157] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:41:55,157] {logging_mixin.py:112} INFO - [2021-01-15 16:41:55,157] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:41:55,158] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:41:55,168] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:41:55,173] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:41:55,175] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.033 seconds
+[2021-01-15 16:42:51,290] {scheduler_job.py:154} INFO - Started process (PID=9399) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:42:51,306] {logging_mixin.py:112} INFO - [2021-01-15 16:42:51,306] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:42:51,307] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:42:51,307] {logging_mixin.py:112} INFO - [2021-01-15 16:42:51,307] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:42:51,309] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:42:51,320] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:42:51,327] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:42:51,328] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 16:43:47,529] {scheduler_job.py:154} INFO - Started process (PID=9437) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:43:47,546] {logging_mixin.py:112} INFO - [2021-01-15 16:43:47,546] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:43:47,546] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:43:47,547] {logging_mixin.py:112} INFO - [2021-01-15 16:43:47,546] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:43:47,549] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:43:47,560] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:43:47,566] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:43:47,568] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.039 seconds
+[2021-01-15 16:44:48,668] {scheduler_job.py:154} INFO - Started process (PID=9477) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:44:48,682] {logging_mixin.py:112} INFO - [2021-01-15 16:44:48,682] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:44:48,683] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:44:48,683] {logging_mixin.py:112} INFO - [2021-01-15 16:44:48,683] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:44:48,684] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:44:48,700] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:44:48,707] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:44:48,709] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.041 seconds
+[2021-01-15 16:45:50,046] {scheduler_job.py:154} INFO - Started process (PID=9519) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:45:50,060] {logging_mixin.py:112} INFO - [2021-01-15 16:45:50,060] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:45:50,061] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:45:50,061] {logging_mixin.py:112} INFO - [2021-01-15 16:45:50,061] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:45:50,062] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:45:50,072] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:45:50,077] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:45:50,079] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.033 seconds
+[2021-01-15 16:46:51,333] {scheduler_job.py:154} INFO - Started process (PID=9563) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:46:51,350] {logging_mixin.py:112} INFO - [2021-01-15 16:46:51,350] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:46:51,350] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:46:51,351] {logging_mixin.py:112} INFO - [2021-01-15 16:46:51,350] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:46:51,352] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:46:51,363] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:46:51,370] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:46:51,372] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 16:47:47,711] {scheduler_job.py:154} INFO - Started process (PID=9598) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:47:47,727] {logging_mixin.py:112} INFO - [2021-01-15 16:47:47,727] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:47:47,728] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:47:47,728] {logging_mixin.py:112} INFO - [2021-01-15 16:47:47,728] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:47:47,729] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:47:47,740] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:47:47,745] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:47:47,746] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 16:48:43,691] {scheduler_job.py:154} INFO - Started process (PID=9644) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:48:43,706] {logging_mixin.py:112} INFO - [2021-01-15 16:48:43,706] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:48:43,707] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:48:43,707] {logging_mixin.py:112} INFO - [2021-01-15 16:48:43,707] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:48:43,708] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:48:43,718] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:48:43,723] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:48:43,725] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 16:49:39,973] {scheduler_job.py:154} INFO - Started process (PID=9679) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:49:39,990] {logging_mixin.py:112} INFO - [2021-01-15 16:49:39,989] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:49:39,990] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:49:39,990] {logging_mixin.py:112} INFO - [2021-01-15 16:49:39,990] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:49:39,993] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:49:40,004] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:49:40,011] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:49:40,013] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.039 seconds
+[2021-01-15 16:50:35,943] {scheduler_job.py:154} INFO - Started process (PID=9722) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:50:35,957] {logging_mixin.py:112} INFO - [2021-01-15 16:50:35,957] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:50:35,958] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:50:35,958] {logging_mixin.py:112} INFO - [2021-01-15 16:50:35,958] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:50:35,959] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:50:35,971] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:50:35,977] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:50:35,979] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 16:51:32,118] {scheduler_job.py:154} INFO - Started process (PID=9758) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:51:32,132] {logging_mixin.py:112} INFO - [2021-01-15 16:51:32,132] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:51:32,133] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:51:32,133] {logging_mixin.py:112} INFO - [2021-01-15 16:51:32,133] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:51:32,134] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:51:32,145] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:51:32,151] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:51:32,152] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 16:52:28,384] {scheduler_job.py:154} INFO - Started process (PID=9791) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:52:28,403] {logging_mixin.py:112} INFO - [2021-01-15 16:52:28,403] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:52:28,404] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:52:28,404] {logging_mixin.py:112} INFO - [2021-01-15 16:52:28,404] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:52:28,406] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:52:28,420] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:52:28,427] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:52:28,429] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.046 seconds
+[2021-01-15 16:53:24,421] {scheduler_job.py:154} INFO - Started process (PID=9829) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:53:24,439] {logging_mixin.py:112} INFO - [2021-01-15 16:53:24,439] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:53:24,440] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:53:24,440] {logging_mixin.py:112} INFO - [2021-01-15 16:53:24,440] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:53:24,442] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:53:24,453] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:53:24,459] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:53:24,461] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.040 seconds
+[2021-01-15 16:54:20,595] {scheduler_job.py:154} INFO - Started process (PID=9866) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:54:20,610] {logging_mixin.py:112} INFO - [2021-01-15 16:54:20,610] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:54:20,611] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:54:20,611] {logging_mixin.py:112} INFO - [2021-01-15 16:54:20,611] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:54:20,612] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:54:20,628] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:54:20,635] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:54:20,637] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.042 seconds
+[2021-01-15 16:55:16,771] {scheduler_job.py:154} INFO - Started process (PID=9898) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:55:16,785] {logging_mixin.py:112} INFO - [2021-01-15 16:55:16,784] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:55:16,785] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:55:16,785] {logging_mixin.py:112} INFO - [2021-01-15 16:55:16,785] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:55:16,787] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:55:16,797] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:55:16,802] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:55:16,803] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.033 seconds
+[2021-01-15 16:56:13,001] {scheduler_job.py:154} INFO - Started process (PID=10061) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:56:13,016] {logging_mixin.py:112} INFO - [2021-01-15 16:56:13,015] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:56:13,017] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:56:13,017] {logging_mixin.py:112} INFO - [2021-01-15 16:56:13,017] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:56:13,019] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:56:13,030] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:56:13,036] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:56:13,038] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.037 seconds
+[2021-01-15 16:57:09,140] {scheduler_job.py:154} INFO - Started process (PID=10107) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:57:09,156] {logging_mixin.py:112} INFO - [2021-01-15 16:57:09,156] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:57:09,157] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:57:09,157] {logging_mixin.py:112} INFO - [2021-01-15 16:57:09,157] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:57:09,160] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:57:09,170] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:57:09,178] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:57:09,180] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.040 seconds
+[2021-01-15 16:58:05,194] {scheduler_job.py:154} INFO - Started process (PID=10140) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:58:05,208] {logging_mixin.py:112} INFO - [2021-01-15 16:58:05,208] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:58:05,209] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:58:05,209] {logging_mixin.py:112} INFO - [2021-01-15 16:58:05,209] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:58:05,210] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:58:05,222] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:58:05,228] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:58:05,230] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 16:59:01,400] {scheduler_job.py:154} INFO - Started process (PID=10173) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:59:01,415] {logging_mixin.py:112} INFO - [2021-01-15 16:59:01,415] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:59:01,416] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:59:01,416] {logging_mixin.py:112} INFO - [2021-01-15 16:59:01,416] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:59:01,417] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:59:01,430] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:59:01,436] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:59:01,438] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 16:59:57,640] {scheduler_job.py:154} INFO - Started process (PID=10210) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:59:57,657] {logging_mixin.py:112} INFO - [2021-01-15 16:59:57,657] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:59:57,658] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 16:59:57,658] {logging_mixin.py:112} INFO - [2021-01-15 16:59:57,658] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:59:57,660] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 16:59:57,672] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 16:59:57,678] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 16:59:57,680] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.040 seconds
+[2021-01-15 17:00:53,762] {scheduler_job.py:154} INFO - Started process (PID=10253) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:00:53,776] {logging_mixin.py:112} INFO - [2021-01-15 17:00:53,776] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:00:53,776] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:00:53,777] {logging_mixin.py:112} INFO - [2021-01-15 17:00:53,776] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:00:53,778] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:00:53,789] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:00:53,793] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:00:53,795] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.033 seconds
+[2021-01-15 17:01:49,925] {scheduler_job.py:154} INFO - Started process (PID=10290) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:01:49,940] {logging_mixin.py:112} INFO - [2021-01-15 17:01:49,940] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:01:49,941] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:01:49,941] {logging_mixin.py:112} INFO - [2021-01-15 17:01:49,941] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:01:49,943] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:01:49,953] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:01:49,958] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:01:49,960] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 17:02:46,185] {scheduler_job.py:154} INFO - Started process (PID=10326) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:02:46,201] {logging_mixin.py:112} INFO - [2021-01-15 17:02:46,201] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:02:46,202] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:02:46,202] {logging_mixin.py:112} INFO - [2021-01-15 17:02:46,202] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:02:46,204] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:02:46,216] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:02:46,222] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:02:46,223] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 17:03:42,398] {scheduler_job.py:154} INFO - Started process (PID=10373) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:03:42,419] {logging_mixin.py:112} INFO - [2021-01-15 17:03:42,418] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:03:42,419] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:03:42,419] {logging_mixin.py:112} INFO - [2021-01-15 17:03:42,419] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:03:42,421] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:03:42,438] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:03:42,448] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:03:42,451] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.053 seconds
+[2021-01-15 17:04:38,381] {scheduler_job.py:154} INFO - Started process (PID=10409) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:04:38,395] {logging_mixin.py:112} INFO - [2021-01-15 17:04:38,395] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:04:38,396] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:04:38,396] {logging_mixin.py:112} INFO - [2021-01-15 17:04:38,396] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:04:38,397] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:04:38,412] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:04:38,420] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:04:38,422] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.041 seconds
+[2021-01-15 17:05:34,618] {scheduler_job.py:154} INFO - Started process (PID=10480) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:05:34,634] {logging_mixin.py:112} INFO - [2021-01-15 17:05:34,634] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:05:34,640] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:05:34,640] {logging_mixin.py:112} INFO - [2021-01-15 17:05:34,640] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:05:34,642] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:05:34,653] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:05:34,658] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:05:34,660] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.041 seconds
+[2021-01-15 17:06:30,757] {scheduler_job.py:154} INFO - Started process (PID=10515) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:06:30,771] {logging_mixin.py:112} INFO - [2021-01-15 17:06:30,771] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:06:30,772] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:06:30,772] {logging_mixin.py:112} INFO - [2021-01-15 17:06:30,772] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:06:30,774] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:06:30,784] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:06:30,789] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:06:30,791] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 17:07:26,953] {scheduler_job.py:154} INFO - Started process (PID=10555) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:07:26,967] {logging_mixin.py:112} INFO - [2021-01-15 17:07:26,967] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:07:26,967] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:07:26,967] {logging_mixin.py:112} INFO - [2021-01-15 17:07:26,967] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:07:26,969] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:07:26,981] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:07:26,987] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:07:26,989] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 17:08:23,049] {scheduler_job.py:154} INFO - Started process (PID=10601) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:08:23,066] {logging_mixin.py:112} INFO - [2021-01-15 17:08:23,066] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:08:23,067] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:08:23,067] {logging_mixin.py:112} INFO - [2021-01-15 17:08:23,067] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:08:23,069] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:08:23,082] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:08:23,090] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:08:23,092] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.043 seconds
+[2021-01-15 17:09:19,124] {scheduler_job.py:154} INFO - Started process (PID=10640) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:09:19,138] {logging_mixin.py:112} INFO - [2021-01-15 17:09:19,138] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:09:19,139] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:09:19,139] {logging_mixin.py:112} INFO - [2021-01-15 17:09:19,139] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:09:19,141] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:09:19,151] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:09:19,156] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:09:19,157] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.033 seconds
+[2021-01-15 17:10:15,401] {scheduler_job.py:154} INFO - Started process (PID=10675) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:10:15,415] {logging_mixin.py:112} INFO - [2021-01-15 17:10:15,415] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:10:15,416] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:10:15,416] {logging_mixin.py:112} INFO - [2021-01-15 17:10:15,416] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:10:15,417] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:10:15,428] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:10:15,433] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:10:15,434] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.033 seconds
+[2021-01-15 17:11:11,478] {scheduler_job.py:154} INFO - Started process (PID=10711) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:11:11,496] {logging_mixin.py:112} INFO - [2021-01-15 17:11:11,496] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:11:11,497] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:11:11,497] {logging_mixin.py:112} INFO - [2021-01-15 17:11:11,497] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:11:11,500] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:11:11,513] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:11:11,518] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:11:11,520] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.041 seconds
+[2021-01-15 17:12:07,742] {scheduler_job.py:154} INFO - Started process (PID=10744) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:12:07,757] {logging_mixin.py:112} INFO - [2021-01-15 17:12:07,757] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:12:07,758] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:12:07,758] {logging_mixin.py:112} INFO - [2021-01-15 17:12:07,758] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:12:07,759] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:12:07,771] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:12:07,777] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:12:07,778] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 17:13:03,817] {scheduler_job.py:154} INFO - Started process (PID=10780) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:13:03,831] {logging_mixin.py:112} INFO - [2021-01-15 17:13:03,831] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:13:03,832] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:13:03,832] {logging_mixin.py:112} INFO - [2021-01-15 17:13:03,832] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:13:03,834] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:13:03,845] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:13:03,851] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:13:03,853] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.035 seconds
+[2021-01-15 17:13:59,943] {scheduler_job.py:154} INFO - Started process (PID=10812) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:13:59,959] {logging_mixin.py:112} INFO - [2021-01-15 17:13:59,959] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:13:59,959] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:13:59,960] {logging_mixin.py:112} INFO - [2021-01-15 17:13:59,959] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:13:59,961] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:13:59,973] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:13:59,978] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:13:59,980] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 17:14:56,124] {scheduler_job.py:154} INFO - Started process (PID=10860) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:14:56,140] {logging_mixin.py:112} INFO - [2021-01-15 17:14:56,140] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:14:56,140] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:14:56,141] {logging_mixin.py:112} INFO - [2021-01-15 17:14:56,141] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:14:56,142] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:14:56,154] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:14:56,159] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:14:56,161] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.037 seconds
+[2021-01-15 17:15:52,325] {scheduler_job.py:154} INFO - Started process (PID=10893) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:15:52,340] {logging_mixin.py:112} INFO - [2021-01-15 17:15:52,339] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:15:52,340] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:15:52,340] {logging_mixin.py:112} INFO - [2021-01-15 17:15:52,340] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:15:52,342] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:15:52,355] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:15:52,362] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:15:52,363] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.038 seconds
+[2021-01-15 17:16:48,499] {scheduler_job.py:154} INFO - Started process (PID=10928) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:16:48,514] {logging_mixin.py:112} INFO - [2021-01-15 17:16:48,514] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:16:48,515] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:16:48,515] {logging_mixin.py:112} INFO - [2021-01-15 17:16:48,515] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:16:48,516] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:16:48,527] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:16:48,533] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:16:48,534] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.036 seconds
+[2021-01-15 17:17:44,608] {scheduler_job.py:154} INFO - Started process (PID=10960) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:17:44,624] {logging_mixin.py:112} INFO - [2021-01-15 17:17:44,623] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:17:44,624] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:17:44,624] {logging_mixin.py:112} INFO - [2021-01-15 17:17:44,624] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:17:44,626] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:17:44,638] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:17:44,644] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:17:44,645] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.037 seconds
+[2021-01-15 17:18:40,791] {scheduler_job.py:154} INFO - Started process (PID=10993) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:18:40,805] {logging_mixin.py:112} INFO - [2021-01-15 17:18:40,805] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:18:40,806] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:18:40,806] {logging_mixin.py:112} INFO - [2021-01-15 17:18:40,806] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:18:40,807] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:18:40,818] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:18:40,823] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:18:40,824] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.033 seconds
+[2021-01-15 17:19:36,920] {scheduler_job.py:154} INFO - Started process (PID=11026) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:19:36,937] {logging_mixin.py:112} INFO - [2021-01-15 17:19:36,937] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:19:36,937] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:19:36,938] {logging_mixin.py:112} INFO - [2021-01-15 17:19:36,937] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:19:36,939] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:19:36,953] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:19:36,959] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:19:36,961] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.040 seconds
+[2021-01-15 17:20:33,107] {scheduler_job.py:154} INFO - Started process (PID=11071) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:20:33,121] {logging_mixin.py:112} INFO - [2021-01-15 17:20:33,121] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:20:33,122] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:20:33,122] {logging_mixin.py:112} INFO - [2021-01-15 17:20:33,122] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:20:33,123] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:20:33,134] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:20:33,139] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:20:33,141] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.034 seconds
+[2021-01-15 17:21:29,274] {scheduler_job.py:154} INFO - Started process (PID=11122) to work on /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:21:29,290] {logging_mixin.py:112} INFO - [2021-01-15 17:21:29,290] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:21:29,291] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/tuto.py for tasks to queue
+[2021-01-15 17:21:29,291] {logging_mixin.py:112} INFO - [2021-01-15 17:21:29,291] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:21:29,292] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ichiro/airflow/dags/tuto.py
+[2021-01-15 17:21:29,304] {scheduler_job.py:1288} INFO - Processing tutorial
+[2021-01-15 17:21:29,309] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: tutorial> because no tasks in DAG have SLAs
+[2021-01-15 17:21:29,311] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/tuto.py took 0.037 seconds

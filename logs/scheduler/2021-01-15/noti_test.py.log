@@ -1,0 +1,639 @@
+[2021-01-15 15:23:40,460] {scheduler_job.py:155} INFO - Started process (PID=6602) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:23:40,471] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:23:40,472] {logging_mixin.py:112} INFO - [2021-01-15 15:23:40,472] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:23:40,477] {logging_mixin.py:112} INFO - [2021-01-15 15:23:40,475] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/noti_test.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/noti_test.py", line 26
+    'fallback': f'{dag_name}:{task_name}',
+                                        ^
+SyntaxError: invalid syntax
+[2021-01-15 15:23:40,477] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:23:40,487] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.027 seconds
+[2021-01-15 15:24:36,583] {scheduler_job.py:155} INFO - Started process (PID=6638) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:24:36,590] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:24:36,590] {logging_mixin.py:112} INFO - [2021-01-15 15:24:36,590] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:24:36,594] {logging_mixin.py:112} INFO - [2021-01-15 15:24:36,593] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/noti_test.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/noti_test.py", line 26
+    'fallback': f'{dag_name}:{task_name}',
+                                        ^
+SyntaxError: invalid syntax
+[2021-01-15 15:24:36,594] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:24:36,602] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.019 seconds
+[2021-01-15 15:25:32,751] {scheduler_job.py:155} INFO - Started process (PID=6680) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:25:32,759] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:25:32,760] {logging_mixin.py:112} INFO - [2021-01-15 15:25:32,760] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:25:32,764] {logging_mixin.py:112} INFO - [2021-01-15 15:25:32,763] {dagbag.py:259} ERROR - Failed to import: /Users/ichiro/airflow/dags/noti_test.py
+Traceback (most recent call last):
+  File "/Users/ichiro/Library/Python/2.7/lib/python/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/ichiro/airflow/dags/noti_test.py", line 26
+    'fallback': f'{dag_name}:{task_name}',
+                                        ^
+SyntaxError: invalid syntax
+[2021-01-15 15:25:32,765] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:25:32,774] {scheduler_job.py:163} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.023 seconds
+[2021-01-15 15:42:00,040] {scheduler_job.py:154} INFO - Started process (PID=6974) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:42:00,057] {logging_mixin.py:112} INFO - [2021-01-15 15:42:00,056] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:42:00,057] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:42:00,057] {logging_mixin.py:112} INFO - [2021-01-15 15:42:00,057] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:42:00,060] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:42:00,064] {logging_mixin.py:112} INFO - [2021-01-15 15:42:00,064] {dag.py:1520} INFO - Creating ORM DAG for noti_test
+[2021-01-15 15:42:00,070] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.030 seconds
+[2021-01-15 15:42:55,961] {scheduler_job.py:154} INFO - Started process (PID=7004) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:42:55,975] {logging_mixin.py:112} INFO - [2021-01-15 15:42:55,975] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:42:55,976] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:42:55,976] {logging_mixin.py:112} INFO - [2021-01-15 15:42:55,976] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:42:55,978] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:42:55,987] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.027 seconds
+[2021-01-15 15:47:24,573] {scheduler_job.py:154} INFO - Started process (PID=7258) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:47:24,589] {logging_mixin.py:112} INFO - [2021-01-15 15:47:24,589] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:47:24,590] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:47:24,590] {logging_mixin.py:112} INFO - [2021-01-15 15:47:24,590] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:47:24,592] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:47:24,602] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.029 seconds
+[2021-01-15 15:48:20,694] {scheduler_job.py:154} INFO - Started process (PID=7365) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:48:20,712] {logging_mixin.py:112} INFO - [2021-01-15 15:48:20,711] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:48:20,712] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:48:20,712] {logging_mixin.py:112} INFO - [2021-01-15 15:48:20,712] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:48:20,714] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:48:20,724] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.029 seconds
+[2021-01-15 15:49:16,904] {scheduler_job.py:154} INFO - Started process (PID=7400) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:49:16,919] {logging_mixin.py:112} INFO - [2021-01-15 15:49:16,919] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:49:16,919] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:49:16,920] {logging_mixin.py:112} INFO - [2021-01-15 15:49:16,919] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:49:16,921] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:49:16,930] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.026 seconds
+[2021-01-15 15:50:12,946] {scheduler_job.py:154} INFO - Started process (PID=7453) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:50:12,962] {logging_mixin.py:112} INFO - [2021-01-15 15:50:12,962] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:50:12,962] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:50:12,962] {logging_mixin.py:112} INFO - [2021-01-15 15:50:12,962] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:50:12,964] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:50:12,975] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.028 seconds
+[2021-01-15 15:51:09,125] {scheduler_job.py:154} INFO - Started process (PID=7496) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:51:09,140] {logging_mixin.py:112} INFO - [2021-01-15 15:51:09,139] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:51:09,140] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:51:09,140] {logging_mixin.py:112} INFO - [2021-01-15 15:51:09,140] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:51:09,142] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:51:09,153] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.028 seconds
+[2021-01-15 15:52:05,346] {scheduler_job.py:154} INFO - Started process (PID=7535) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:52:05,368] {logging_mixin.py:112} INFO - [2021-01-15 15:52:05,368] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:52:05,369] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:52:05,369] {logging_mixin.py:112} INFO - [2021-01-15 15:52:05,369] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:52:05,371] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:52:05,380] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.035 seconds
+[2021-01-15 15:53:01,476] {scheduler_job.py:154} INFO - Started process (PID=7572) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:53:01,492] {logging_mixin.py:112} INFO - [2021-01-15 15:53:01,491] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:53:01,492] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:53:01,492] {logging_mixin.py:112} INFO - [2021-01-15 15:53:01,492] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:53:01,494] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:53:01,503] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.028 seconds
+[2021-01-15 15:53:57,687] {scheduler_job.py:154} INFO - Started process (PID=7605) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:53:57,705] {logging_mixin.py:112} INFO - [2021-01-15 15:53:57,705] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:53:57,706] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:53:57,706] {logging_mixin.py:112} INFO - [2021-01-15 15:53:57,706] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:53:57,708] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:53:57,717] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.030 seconds
+[2021-01-15 15:54:53,909] {scheduler_job.py:154} INFO - Started process (PID=7644) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:54:53,926] {logging_mixin.py:112} INFO - [2021-01-15 15:54:53,926] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:54:53,926] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:54:53,927] {logging_mixin.py:112} INFO - [2021-01-15 15:54:53,926] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:54:53,928] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:54:53,938] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.028 seconds
+[2021-01-15 15:55:49,982] {scheduler_job.py:154} INFO - Started process (PID=7678) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:55:49,996] {logging_mixin.py:112} INFO - [2021-01-15 15:55:49,996] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:55:49,997] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:55:49,997] {logging_mixin.py:112} INFO - [2021-01-15 15:55:49,997] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:55:49,999] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:55:50,008] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.026 seconds
+[2021-01-15 15:56:46,282] {scheduler_job.py:154} INFO - Started process (PID=7718) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:56:46,298] {logging_mixin.py:112} INFO - [2021-01-15 15:56:46,298] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:56:46,299] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:56:46,299] {logging_mixin.py:112} INFO - [2021-01-15 15:56:46,299] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:56:46,300] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:56:46,310] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.028 seconds
+[2021-01-15 15:57:42,284] {scheduler_job.py:154} INFO - Started process (PID=7750) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:57:42,299] {logging_mixin.py:112} INFO - [2021-01-15 15:57:42,299] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:57:42,300] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:57:42,300] {logging_mixin.py:112} INFO - [2021-01-15 15:57:42,300] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:57:42,302] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:57:42,310] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.026 seconds
+[2021-01-15 15:58:38,450] {scheduler_job.py:154} INFO - Started process (PID=7786) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:58:38,464] {logging_mixin.py:112} INFO - [2021-01-15 15:58:38,464] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:58:38,465] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:58:38,465] {logging_mixin.py:112} INFO - [2021-01-15 15:58:38,465] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:58:38,467] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:58:38,476] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.026 seconds
+[2021-01-15 15:59:34,677] {scheduler_job.py:154} INFO - Started process (PID=7823) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:59:34,692] {logging_mixin.py:112} INFO - [2021-01-15 15:59:34,691] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 15:59:34,692] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 15:59:34,692] {logging_mixin.py:112} INFO - [2021-01-15 15:59:34,692] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:59:34,694] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 15:59:34,704] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.028 seconds
+[2021-01-15 16:00:30,883] {scheduler_job.py:154} INFO - Started process (PID=7856) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:00:30,898] {logging_mixin.py:112} INFO - [2021-01-15 16:00:30,898] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:00:30,899] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:00:30,899] {logging_mixin.py:112} INFO - [2021-01-15 16:00:30,899] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:00:30,901] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:00:30,914] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.030 seconds
+[2021-01-15 16:01:26,958] {scheduler_job.py:154} INFO - Started process (PID=7926) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:01:26,973] {logging_mixin.py:112} INFO - [2021-01-15 16:01:26,973] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:01:26,974] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:01:26,974] {logging_mixin.py:112} INFO - [2021-01-15 16:01:26,974] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:01:26,976] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:01:26,984] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.026 seconds
+[2021-01-15 16:02:23,071] {scheduler_job.py:154} INFO - Started process (PID=7962) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:02:23,087] {logging_mixin.py:112} INFO - [2021-01-15 16:02:23,087] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:02:23,088] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:02:23,088] {logging_mixin.py:112} INFO - [2021-01-15 16:02:23,088] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:02:23,090] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:02:23,098] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.027 seconds
+[2021-01-15 16:03:19,235] {scheduler_job.py:154} INFO - Started process (PID=7998) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:03:19,251] {logging_mixin.py:112} INFO - [2021-01-15 16:03:19,251] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:03:19,252] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:03:19,252] {logging_mixin.py:112} INFO - [2021-01-15 16:03:19,252] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:03:19,255] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:03:19,264] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.029 seconds
+[2021-01-15 16:28:16,120] {scheduler_job.py:154} INFO - Started process (PID=8813) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:28:16,137] {logging_mixin.py:112} INFO - [2021-01-15 16:28:16,137] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:28:16,138] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:28:16,138] {logging_mixin.py:112} INFO - [2021-01-15 16:28:16,138] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:28:16,140] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:28:16,151] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:28:16,166] {scheduler_job.py:1298} INFO - Created <DagRun noti_test @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:28:16,167] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:28:16,177] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 06:51:48.687195+00:00: manual__2021-01-15T06:51:48.687195+00:00, externally triggered: True>
+[2021-01-15 16:28:16,184] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:28:16,187] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op1 2021-01-14 00:00:00+00:00 [scheduled]> in ORM
+[2021-01-15 16:28:16,189] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op1 2021-01-15 06:51:48.687195+00:00 [scheduled]> in ORM
+[2021-01-15 16:28:16,193] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.073 seconds
+[2021-01-15 16:30:37,090] {scheduler_job.py:154} INFO - Started process (PID=8896) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:30:37,104] {logging_mixin.py:112} INFO - [2021-01-15 16:30:37,104] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:30:37,105] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:30:37,105] {logging_mixin.py:112} INFO - [2021-01-15 16:30:37,105] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:30:37,106] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:30:37,117] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:30:37,121] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:30:37,128] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 06:51:48.687195+00:00: manual__2021-01-15T06:51:48.687195+00:00, externally triggered: True>
+[2021-01-15 16:30:37,134] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:30:37,136] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op2 2021-01-14 00:00:00+00:00 [scheduled]> in ORM
+[2021-01-15 16:30:37,138] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op2 2021-01-15 06:51:48.687195+00:00 [scheduled]> in ORM
+[2021-01-15 16:30:37,142] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.053 seconds
+[2021-01-15 16:32:02,523] {scheduler_job.py:154} INFO - Started process (PID=8956) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:32:02,539] {logging_mixin.py:112} INFO - [2021-01-15 16:32:02,539] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:32:02,540] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:32:02,540] {logging_mixin.py:112} INFO - [2021-01-15 16:32:02,540] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:32:02,542] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:32:02,552] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:32:02,556] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:32:02,562] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 06:51:48.687195+00:00: manual__2021-01-15T06:51:48.687195+00:00, externally triggered: True>
+[2021-01-15 16:32:02,567] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:32:02,569] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op3 2021-01-14 00:00:00+00:00 [scheduled]> in ORM
+[2021-01-15 16:32:02,570] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op3 2021-01-15 06:51:48.687195+00:00 [scheduled]> in ORM
+[2021-01-15 16:32:02,576] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.054 seconds
+[2021-01-15 16:33:10,127] {scheduler_job.py:154} INFO - Started process (PID=8993) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:33:10,141] {logging_mixin.py:112} INFO - [2021-01-15 16:33:10,141] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:33:10,142] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:33:10,142] {logging_mixin.py:112} INFO - [2021-01-15 16:33:10,142] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:33:10,144] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:33:10,154] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:33:10,159] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:33:10,165] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 06:51:48.687195+00:00: manual__2021-01-15T06:51:48.687195+00:00, externally triggered: True>
+[2021-01-15 16:33:10,170] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:33:10,694] {logging_mixin.py:112} INFO - [2021-01-15 16:33:10,694] {dagbag.py:357} INFO - Marked zombie job <TaskInstance: noti_test.op3 2021-01-15 06:51:48.687195+00:00 [failed]> as failed
+[2021-01-15 16:33:11,148] {logging_mixin.py:112} INFO - [2021-01-15 16:33:11,148] {dagbag.py:357} INFO - Marked zombie job <TaskInstance: noti_test.op3 2021-01-14 00:00:00+00:00 [failed]> as failed
+[2021-01-15 16:33:11,148] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 1.021 seconds
+[2021-01-15 16:34:06,230] {scheduler_job.py:154} INFO - Started process (PID=9034) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:34:06,245] {logging_mixin.py:112} INFO - [2021-01-15 16:34:06,245] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:34:06,246] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:34:06,246] {logging_mixin.py:112} INFO - [2021-01-15 16:34:06,246] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:34:06,248] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:34:06,263] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:34:06,269] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False>
+[2021-01-15 16:34:06,275] {logging_mixin.py:112} INFO - [2021-01-15 16:34:06,275] {dagrun.py:298} INFO - Marking run <DagRun noti_test @ 2021-01-14 00:00:00+00:00: scheduled__2021-01-14T00:00:00+00:00, externally triggered: False> failed
+[2021-01-15 16:34:06,278] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 06:51:48.687195+00:00: manual__2021-01-15T06:51:48.687195+00:00, externally triggered: True>
+[2021-01-15 16:34:06,282] {logging_mixin.py:112} INFO - [2021-01-15 16:34:06,282] {dagrun.py:298} INFO - Marking run <DagRun noti_test @ 2021-01-15 06:51:48.687195+00:00: manual__2021-01-15T06:51:48.687195+00:00, externally triggered: True> failed
+[2021-01-15 16:34:06,283] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:34:06,285] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.055 seconds
+[2021-01-15 16:35:02,396] {scheduler_job.py:154} INFO - Started process (PID=9071) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:35:02,414] {logging_mixin.py:112} INFO - [2021-01-15 16:35:02,413] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:35:02,414] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:35:02,414] {logging_mixin.py:112} INFO - [2021-01-15 16:35:02,414] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:35:02,416] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:35:02,427] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:35:02,432] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:35:02,434] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.038 seconds
+[2021-01-15 16:35:58,565] {scheduler_job.py:154} INFO - Started process (PID=9114) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:35:58,580] {logging_mixin.py:112} INFO - [2021-01-15 16:35:58,580] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:35:58,580] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:35:58,580] {logging_mixin.py:112} INFO - [2021-01-15 16:35:58,580] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:35:58,582] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:35:58,591] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:35:58,596] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:35:03.242575+00:00: manual__2021-01-15T07:35:03.242575+00:00, externally triggered: True>
+[2021-01-15 16:35:58,606] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:35:58,607] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op1 2021-01-15 07:35:03.242575+00:00 [scheduled]> in ORM
+[2021-01-15 16:35:58,612] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.048 seconds
+[2021-01-15 16:36:59,891] {scheduler_job.py:154} INFO - Started process (PID=9157) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:36:59,906] {logging_mixin.py:112} INFO - [2021-01-15 16:36:59,906] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:36:59,906] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:36:59,907] {logging_mixin.py:112} INFO - [2021-01-15 16:36:59,907] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:36:59,909] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:36:59,918] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:36:59,923] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:35:03.242575+00:00: manual__2021-01-15T07:35:03.242575+00:00, externally triggered: True>
+[2021-01-15 16:36:59,932] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:36:59,934] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op2 2021-01-15 07:35:03.242575+00:00 [scheduled]> in ORM
+[2021-01-15 16:36:59,939] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.049 seconds
+[2021-01-15 16:38:01,239] {scheduler_job.py:154} INFO - Started process (PID=9196) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:38:01,253] {logging_mixin.py:112} INFO - [2021-01-15 16:38:01,253] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:38:01,254] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:38:01,254] {logging_mixin.py:112} INFO - [2021-01-15 16:38:01,254] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:38:01,256] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:38:01,266] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:38:01,270] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:35:03.242575+00:00: manual__2021-01-15T07:35:03.242575+00:00, externally triggered: True>
+[2021-01-15 16:38:01,276] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:38:01,278] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op3 2021-01-15 07:35:03.242575+00:00 [scheduled]> in ORM
+[2021-01-15 16:38:01,284] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.045 seconds
+[2021-01-15 16:39:02,558] {scheduler_job.py:154} INFO - Started process (PID=9238) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:39:02,577] {logging_mixin.py:112} INFO - [2021-01-15 16:39:02,576] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:39:02,577] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:39:02,577] {logging_mixin.py:112} INFO - [2021-01-15 16:39:02,577] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:39:02,579] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:39:02,590] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:39:02,594] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:35:03.242575+00:00: manual__2021-01-15T07:35:03.242575+00:00, externally triggered: True>
+[2021-01-15 16:39:02,599] {logging_mixin.py:112} INFO - [2021-01-15 16:39:02,599] {dagrun.py:307} INFO - Marking run <DagRun noti_test @ 2021-01-15 07:35:03.242575+00:00: manual__2021-01-15T07:35:03.242575+00:00, externally triggered: True> successful
+[2021-01-15 16:39:02,601] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:39:02,603] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.045 seconds
+[2021-01-15 16:39:58,765] {scheduler_job.py:154} INFO - Started process (PID=9277) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:39:58,781] {logging_mixin.py:112} INFO - [2021-01-15 16:39:58,781] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:39:58,782] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:39:58,782] {logging_mixin.py:112} INFO - [2021-01-15 16:39:58,782] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:39:58,783] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:39:58,794] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:39:58,799] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:39:58,801] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.036 seconds
+[2021-01-15 16:40:54,889] {scheduler_job.py:154} INFO - Started process (PID=9322) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:40:54,906] {logging_mixin.py:112} INFO - [2021-01-15 16:40:54,905] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:40:54,906] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:40:54,906] {logging_mixin.py:112} INFO - [2021-01-15 16:40:54,906] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:40:54,909] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:40:54,920] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:40:54,926] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:40:54,929] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.040 seconds
+[2021-01-15 16:41:51,217] {scheduler_job.py:154} INFO - Started process (PID=9364) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:41:51,232] {logging_mixin.py:112} INFO - [2021-01-15 16:41:51,232] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:41:51,233] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:41:51,233] {logging_mixin.py:112} INFO - [2021-01-15 16:41:51,233] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:41:51,237] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:41:51,247] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:41:51,252] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:41:51,254] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 16:42:47,211] {scheduler_job.py:154} INFO - Started process (PID=9397) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:42:47,226] {logging_mixin.py:112} INFO - [2021-01-15 16:42:47,226] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:42:47,227] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:42:47,227] {logging_mixin.py:112} INFO - [2021-01-15 16:42:47,227] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:42:47,229] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:42:47,242] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:42:47,246] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:42:47,249] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.038 seconds
+[2021-01-15 16:43:43,598] {scheduler_job.py:154} INFO - Started process (PID=9433) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:43:43,614] {logging_mixin.py:112} INFO - [2021-01-15 16:43:43,614] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:43:43,615] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:43:43,615] {logging_mixin.py:112} INFO - [2021-01-15 16:43:43,615] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:43:43,618] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:43:43,629] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:43:43,633] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:43:43,635] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 16:44:39,558] {scheduler_job.py:154} INFO - Started process (PID=9471) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:44:39,572] {logging_mixin.py:112} INFO - [2021-01-15 16:44:39,572] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:44:39,573] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:44:39,573] {logging_mixin.py:112} INFO - [2021-01-15 16:44:39,573] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:44:39,575] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:44:39,585] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:44:39,589] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:43:50.673128+00:00: manual__2021-01-15T07:43:50.673128+00:00, externally triggered: True>
+[2021-01-15 16:44:39,598] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:44:39,600] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op1 2021-01-15 07:43:50.673128+00:00 [scheduled]> in ORM
+[2021-01-15 16:44:39,606] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.047 seconds
+[2021-01-15 16:45:40,834] {scheduler_job.py:154} INFO - Started process (PID=9514) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:45:40,849] {logging_mixin.py:112} INFO - [2021-01-15 16:45:40,848] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:45:40,849] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:45:40,849] {logging_mixin.py:112} INFO - [2021-01-15 16:45:40,849] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:45:40,851] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:45:40,861] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:45:40,866] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:43:50.673128+00:00: manual__2021-01-15T07:43:50.673128+00:00, externally triggered: True>
+[2021-01-15 16:45:40,873] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:45:40,875] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op2 2021-01-15 07:43:50.673128+00:00 [scheduled]> in ORM
+[2021-01-15 16:45:40,881] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.047 seconds
+[2021-01-15 16:46:42,173] {scheduler_job.py:154} INFO - Started process (PID=9557) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:46:42,188] {logging_mixin.py:112} INFO - [2021-01-15 16:46:42,188] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:46:42,189] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:46:42,189] {logging_mixin.py:112} INFO - [2021-01-15 16:46:42,189] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:46:42,191] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:46:42,200] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:46:42,205] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:43:50.673128+00:00: manual__2021-01-15T07:43:50.673128+00:00, externally triggered: True>
+[2021-01-15 16:46:42,211] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:46:42,213] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: noti_test.op3 2021-01-15 07:43:50.673128+00:00 [scheduled]> in ORM
+[2021-01-15 16:46:42,217] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.044 seconds
+[2021-01-15 16:47:43,510] {scheduler_job.py:154} INFO - Started process (PID=9595) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:47:43,526] {logging_mixin.py:112} INFO - [2021-01-15 16:47:43,525] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:47:43,526] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:47:43,526] {logging_mixin.py:112} INFO - [2021-01-15 16:47:43,526] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:47:43,528] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:47:43,540] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:47:43,545] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:43:50.673128+00:00: manual__2021-01-15T07:43:50.673128+00:00, externally triggered: True>
+[2021-01-15 16:47:43,551] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:47:44,080] {logging_mixin.py:112} INFO - [2021-01-15 16:47:44,080] {dagbag.py:357} INFO - Marked zombie job <TaskInstance: noti_test.op3 2021-01-15 07:43:50.673128+00:00 [failed]> as failed
+[2021-01-15 16:47:44,080] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.570 seconds
+[2021-01-15 16:48:39,666] {scheduler_job.py:154} INFO - Started process (PID=9640) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:48:39,682] {logging_mixin.py:112} INFO - [2021-01-15 16:48:39,681] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:48:39,682] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:48:39,682] {logging_mixin.py:112} INFO - [2021-01-15 16:48:39,682] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:48:39,684] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:48:39,699] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:48:39,705] {scheduler_job.py:771} INFO - Examining DAG run <DagRun noti_test @ 2021-01-15 07:43:50.673128+00:00: manual__2021-01-15T07:43:50.673128+00:00, externally triggered: True>
+[2021-01-15 16:48:39,711] {logging_mixin.py:112} INFO - [2021-01-15 16:48:39,711] {dagrun.py:298} INFO - Marking run <DagRun noti_test @ 2021-01-15 07:43:50.673128+00:00: manual__2021-01-15T07:43:50.673128+00:00, externally triggered: True> failed
+[2021-01-15 16:48:39,713] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:48:39,714] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.048 seconds
+[2021-01-15 16:49:35,943] {scheduler_job.py:154} INFO - Started process (PID=9676) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:49:35,957] {logging_mixin.py:112} INFO - [2021-01-15 16:49:35,957] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:49:35,958] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:49:35,958] {logging_mixin.py:112} INFO - [2021-01-15 16:49:35,958] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:49:35,961] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:49:35,970] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:49:35,975] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:49:35,977] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.034 seconds
+[2021-01-15 16:50:32,024] {scheduler_job.py:154} INFO - Started process (PID=9718) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:50:32,038] {logging_mixin.py:112} INFO - [2021-01-15 16:50:32,038] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:50:32,039] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:50:32,039] {logging_mixin.py:112} INFO - [2021-01-15 16:50:32,039] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:50:32,040] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:50:32,051] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:50:32,055] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:50:32,057] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.033 seconds
+[2021-01-15 16:51:28,194] {scheduler_job.py:154} INFO - Started process (PID=9756) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:51:28,211] {logging_mixin.py:112} INFO - [2021-01-15 16:51:28,211] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:51:28,212] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:51:28,212] {logging_mixin.py:112} INFO - [2021-01-15 16:51:28,212] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:51:28,214] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:51:28,226] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:51:28,232] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:51:28,235] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.040 seconds
+[2021-01-15 16:52:24,299] {scheduler_job.py:154} INFO - Started process (PID=9789) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:52:24,314] {logging_mixin.py:112} INFO - [2021-01-15 16:52:24,313] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:52:24,315] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:52:24,315] {logging_mixin.py:112} INFO - [2021-01-15 16:52:24,315] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:52:24,317] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:52:24,326] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:52:24,332] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:52:24,334] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.036 seconds
+[2021-01-15 16:53:20,548] {scheduler_job.py:154} INFO - Started process (PID=9826) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:53:20,564] {logging_mixin.py:112} INFO - [2021-01-15 16:53:20,564] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:53:20,565] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:53:20,565] {logging_mixin.py:112} INFO - [2021-01-15 16:53:20,565] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:53:20,567] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:53:20,579] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:53:20,584] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:53:20,587] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.039 seconds
+[2021-01-15 16:54:16,610] {scheduler_job.py:154} INFO - Started process (PID=9863) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:54:16,626] {logging_mixin.py:112} INFO - [2021-01-15 16:54:16,625] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:54:16,627] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:54:16,627] {logging_mixin.py:112} INFO - [2021-01-15 16:54:16,627] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:54:16,630] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:54:16,640] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:54:16,645] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:54:16,648] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 16:55:12,720] {scheduler_job.py:154} INFO - Started process (PID=9896) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:55:12,734] {logging_mixin.py:112} INFO - [2021-01-15 16:55:12,734] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:55:12,735] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:55:12,735] {logging_mixin.py:112} INFO - [2021-01-15 16:55:12,735] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:55:12,737] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:55:12,747] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:55:12,751] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:55:12,753] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.033 seconds
+[2021-01-15 16:56:08,903] {scheduler_job.py:154} INFO - Started process (PID=10059) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:56:08,918] {logging_mixin.py:112} INFO - [2021-01-15 16:56:08,917] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:56:08,918] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:56:08,918] {logging_mixin.py:112} INFO - [2021-01-15 16:56:08,918] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:56:08,921] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:56:08,934] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:56:08,940] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:56:08,941] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.039 seconds
+[2021-01-15 16:57:05,019] {scheduler_job.py:154} INFO - Started process (PID=10104) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:57:05,033] {logging_mixin.py:112} INFO - [2021-01-15 16:57:05,033] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:57:05,034] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:57:05,034] {logging_mixin.py:112} INFO - [2021-01-15 16:57:05,034] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:57:05,036] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:57:05,048] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:57:05,053] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:57:05,055] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.036 seconds
+[2021-01-15 16:58:01,188] {scheduler_job.py:154} INFO - Started process (PID=10136) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:58:01,203] {logging_mixin.py:112} INFO - [2021-01-15 16:58:01,203] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:58:01,204] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:58:01,204] {logging_mixin.py:112} INFO - [2021-01-15 16:58:01,204] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:58:01,206] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:58:01,216] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:58:01,221] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:58:01,223] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.035 seconds
+[2021-01-15 16:58:57,389] {scheduler_job.py:154} INFO - Started process (PID=10171) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:58:57,404] {logging_mixin.py:112} INFO - [2021-01-15 16:58:57,403] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:58:57,404] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:58:57,404] {logging_mixin.py:112} INFO - [2021-01-15 16:58:57,404] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:58:57,406] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:58:57,417] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:58:57,422] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:58:57,425] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.036 seconds
+[2021-01-15 16:59:53,645] {scheduler_job.py:154} INFO - Started process (PID=10208) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:59:53,662] {logging_mixin.py:112} INFO - [2021-01-15 16:59:53,661] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 16:59:53,662] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 16:59:53,662] {logging_mixin.py:112} INFO - [2021-01-15 16:59:53,662] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:59:53,664] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 16:59:53,675] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 16:59:53,680] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 16:59:53,682] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 17:00:49,774] {scheduler_job.py:154} INFO - Started process (PID=10249) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:00:49,792] {logging_mixin.py:112} INFO - [2021-01-15 17:00:49,791] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:00:49,792] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:00:49,792] {logging_mixin.py:112} INFO - [2021-01-15 17:00:49,792] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:00:49,794] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:00:49,806] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:00:49,811] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:00:49,813] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.040 seconds
+[2021-01-15 17:01:45,968] {scheduler_job.py:154} INFO - Started process (PID=10288) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:01:45,982] {logging_mixin.py:112} INFO - [2021-01-15 17:01:45,982] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:01:45,983] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:01:45,983] {logging_mixin.py:112} INFO - [2021-01-15 17:01:45,983] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:01:45,985] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:01:45,994] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:01:45,998] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:01:46,000] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.032 seconds
+[2021-01-15 17:02:42,140] {scheduler_job.py:154} INFO - Started process (PID=10324) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:02:42,156] {logging_mixin.py:112} INFO - [2021-01-15 17:02:42,155] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:02:42,156] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:02:42,156] {logging_mixin.py:112} INFO - [2021-01-15 17:02:42,156] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:02:42,158] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:02:42,169] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:02:42,173] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:02:42,175] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.035 seconds
+[2021-01-15 17:03:38,303] {scheduler_job.py:154} INFO - Started process (PID=10371) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:03:38,318] {logging_mixin.py:112} INFO - [2021-01-15 17:03:38,318] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:03:38,319] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:03:38,319] {logging_mixin.py:112} INFO - [2021-01-15 17:03:38,319] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:03:38,321] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:03:38,332] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:03:38,339] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:03:38,341] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.038 seconds
+[2021-01-15 17:04:34,401] {scheduler_job.py:154} INFO - Started process (PID=10406) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:04:34,415] {logging_mixin.py:112} INFO - [2021-01-15 17:04:34,415] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:04:34,416] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:04:34,416] {logging_mixin.py:112} INFO - [2021-01-15 17:04:34,416] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:04:34,418] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:04:34,428] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:04:34,433] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:04:34,435] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.034 seconds
+[2021-01-15 17:05:30,724] {scheduler_job.py:154} INFO - Started process (PID=10474) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:05:30,740] {logging_mixin.py:112} INFO - [2021-01-15 17:05:30,740] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:05:30,740] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:05:30,740] {logging_mixin.py:112} INFO - [2021-01-15 17:05:30,740] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:05:30,742] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:05:30,753] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:05:30,759] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:05:30,761] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 17:06:26,685] {scheduler_job.py:154} INFO - Started process (PID=10513) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:06:26,700] {logging_mixin.py:112} INFO - [2021-01-15 17:06:26,700] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:06:26,700] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:06:26,700] {logging_mixin.py:112} INFO - [2021-01-15 17:06:26,700] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:06:26,702] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:06:26,712] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:06:26,717] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:06:26,719] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.034 seconds
+[2021-01-15 17:07:22,844] {scheduler_job.py:154} INFO - Started process (PID=10552) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:07:22,859] {logging_mixin.py:112} INFO - [2021-01-15 17:07:22,859] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:07:22,859] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:07:22,860] {logging_mixin.py:112} INFO - [2021-01-15 17:07:22,860] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:07:22,861] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:07:22,871] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:07:22,876] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:07:22,879] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.034 seconds
+[2021-01-15 17:08:19,067] {scheduler_job.py:154} INFO - Started process (PID=10598) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:08:19,083] {logging_mixin.py:112} INFO - [2021-01-15 17:08:19,083] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:08:19,084] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:08:19,084] {logging_mixin.py:112} INFO - [2021-01-15 17:08:19,084] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:08:19,086] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:08:19,098] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:08:19,102] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:08:19,104] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 17:09:15,115] {scheduler_job.py:154} INFO - Started process (PID=10638) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:09:15,129] {logging_mixin.py:112} INFO - [2021-01-15 17:09:15,129] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:09:15,129] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:09:15,129] {logging_mixin.py:112} INFO - [2021-01-15 17:09:15,129] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:09:15,131] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:09:15,142] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:09:15,146] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:09:15,149] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.034 seconds
+[2021-01-15 17:10:11,302] {scheduler_job.py:154} INFO - Started process (PID=10673) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:10:11,318] {logging_mixin.py:112} INFO - [2021-01-15 17:10:11,318] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:10:11,318] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:10:11,318] {logging_mixin.py:112} INFO - [2021-01-15 17:10:11,318] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:10:11,320] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:10:11,332] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:10:11,336] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:10:11,339] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 17:11:07,454] {scheduler_job.py:154} INFO - Started process (PID=10708) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:11:07,468] {logging_mixin.py:112} INFO - [2021-01-15 17:11:07,468] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:11:07,469] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:11:07,469] {logging_mixin.py:112} INFO - [2021-01-15 17:11:07,469] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:11:07,471] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:11:07,485] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:11:07,492] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:11:07,494] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.040 seconds
+[2021-01-15 17:12:03,817] {scheduler_job.py:154} INFO - Started process (PID=10741) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:12:03,832] {logging_mixin.py:112} INFO - [2021-01-15 17:12:03,831] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:12:03,832] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:12:03,832] {logging_mixin.py:112} INFO - [2021-01-15 17:12:03,832] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:12:03,834] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:12:03,845] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:12:03,850] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:12:03,853] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.036 seconds
+[2021-01-15 17:12:59,834] {scheduler_job.py:154} INFO - Started process (PID=10777) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:12:59,851] {logging_mixin.py:112} INFO - [2021-01-15 17:12:59,850] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:12:59,851] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:12:59,851] {logging_mixin.py:112} INFO - [2021-01-15 17:12:59,851] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:12:59,853] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:12:59,866] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:12:59,872] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:12:59,874] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.040 seconds
+[2021-01-15 17:13:55,977] {scheduler_job.py:154} INFO - Started process (PID=10810) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:13:55,992] {logging_mixin.py:112} INFO - [2021-01-15 17:13:55,992] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:13:55,992] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:13:55,992] {logging_mixin.py:112} INFO - [2021-01-15 17:13:55,992] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:13:55,994] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:13:56,005] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:13:56,010] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:13:56,012] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.035 seconds
+[2021-01-15 17:14:52,201] {scheduler_job.py:154} INFO - Started process (PID=10858) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:14:52,217] {logging_mixin.py:112} INFO - [2021-01-15 17:14:52,217] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:14:52,218] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:14:52,218] {logging_mixin.py:112} INFO - [2021-01-15 17:14:52,218] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:14:52,220] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:14:52,231] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:14:52,236] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:14:52,239] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.039 seconds
+[2021-01-15 17:15:48,297] {scheduler_job.py:154} INFO - Started process (PID=10891) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:15:48,312] {logging_mixin.py:112} INFO - [2021-01-15 17:15:48,311] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:15:48,312] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:15:48,312] {logging_mixin.py:112} INFO - [2021-01-15 17:15:48,312] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:15:48,314] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:15:48,326] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:15:48,331] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:15:48,333] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 17:16:44,413] {scheduler_job.py:154} INFO - Started process (PID=10926) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:16:44,427] {logging_mixin.py:112} INFO - [2021-01-15 17:16:44,427] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:16:44,428] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:16:44,428] {logging_mixin.py:112} INFO - [2021-01-15 17:16:44,428] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:16:44,429] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:16:44,442] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:16:44,447] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:16:44,449] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.037 seconds
+[2021-01-15 17:17:40,596] {scheduler_job.py:154} INFO - Started process (PID=10958) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:17:40,610] {logging_mixin.py:112} INFO - [2021-01-15 17:17:40,610] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:17:40,611] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:17:40,611] {logging_mixin.py:112} INFO - [2021-01-15 17:17:40,611] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:17:40,612] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:17:40,624] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:17:40,629] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:17:40,632] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.036 seconds
+[2021-01-15 17:18:36,771] {scheduler_job.py:154} INFO - Started process (PID=10991) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:18:36,786] {logging_mixin.py:112} INFO - [2021-01-15 17:18:36,786] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:18:36,787] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:18:36,787] {logging_mixin.py:112} INFO - [2021-01-15 17:18:36,787] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:18:36,789] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:18:36,799] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:18:36,803] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:18:36,805] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.034 seconds
+[2021-01-15 17:19:32,859] {scheduler_job.py:154} INFO - Started process (PID=11024) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:19:32,874] {logging_mixin.py:112} INFO - [2021-01-15 17:19:32,873] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:19:32,874] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:19:32,874] {logging_mixin.py:112} INFO - [2021-01-15 17:19:32,874] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:19:32,876] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:19:32,887] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:19:32,893] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:19:32,895] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.036 seconds
+[2021-01-15 17:20:29,160] {scheduler_job.py:154} INFO - Started process (PID=11065) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:20:29,176] {logging_mixin.py:112} INFO - [2021-01-15 17:20:29,176] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:20:29,177] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:20:29,177] {logging_mixin.py:112} INFO - [2021-01-15 17:20:29,177] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:20:29,178] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:20:29,191] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:20:29,197] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:20:29,200] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.040 seconds
+[2021-01-15 17:21:25,341] {scheduler_job.py:154} INFO - Started process (PID=11112) to work on /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:21:25,358] {logging_mixin.py:112} INFO - [2021-01-15 17:21:25,358] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-01-15 17:21:25,359] {scheduler_job.py:1572} INFO - Processing file /Users/ichiro/airflow/dags/noti_test.py for tasks to queue
+[2021-01-15 17:21:25,359] {logging_mixin.py:112} INFO - [2021-01-15 17:21:25,359] {dagbag.py:417} INFO - Filling up the DagBag from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:21:25,361] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['noti_test']) retrieved from /Users/ichiro/airflow/dags/noti_test.py
+[2021-01-15 17:21:25,372] {scheduler_job.py:1288} INFO - Processing noti_test
+[2021-01-15 17:21:25,378] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: noti_test> because no tasks in DAG have SLAs
+[2021-01-15 17:21:25,382] {scheduler_job.py:162} INFO - Processing /Users/ichiro/airflow/dags/noti_test.py took 0.040 seconds

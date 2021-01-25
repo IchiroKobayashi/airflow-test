@@ -1,0 +1,25 @@
+[2021-01-15 15:41:19,196] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 15:41:19,196] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 15:41:19,197] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 15:41:21,055] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: noti_test.op1 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 15:41:21,058] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 15:49:44,102] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 15:49:44,103] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 15:49:44,103] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 15:49:45,083] {taskinstance.py:662} INFO - Dependencies not met for <TaskInstance: noti_test.op1 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 15:49:45,085] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 16:07:12,260] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 16:07:12,262] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 16:07:12,262] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 16:07:13,899] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: noti_test.op1 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 16:07:13,901] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 16:13:04,738] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 16:13:04,739] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 16:13:04,739] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 16:13:06,443] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: noti_test.op1 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 16:13:06,443] {local_task_job.py:90} INFO - Task is not able to be run
+[2021-01-15 17:03:21,663] {logging_mixin.py:112} INFO - Sending to executor.
+[2021-01-15 17:03:21,663] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 17:03:21,664] {sequential_executor.py:54} INFO - Executing command: ['airflow', 'run', 'noti_test', 'op1', '2020-01-15T00:00:00+00:00', '--local', '--pool', u'default_pool', '-sd', 'DAGS_FOLDER/noti_test.py']
+[2021-01-15 17:03:23,435] {taskinstance.py:664} INFO - Dependencies not met for <TaskInstance: noti_test.op1 2020-01-15T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-01-15 17:03:23,435] {local_task_job.py:90} INFO - Task is not able to be run

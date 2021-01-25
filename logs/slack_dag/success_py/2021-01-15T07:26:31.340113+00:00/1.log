@@ -1,0 +1,15 @@
+[2021-01-15 16:27:34,800] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: slack_dag.success_py 2021-01-15T07:26:31.340113+00:00 [queued]>
+[2021-01-15 16:27:34,806] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: slack_dag.success_py 2021-01-15T07:26:31.340113+00:00 [queued]>
+[2021-01-15 16:27:34,807] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-15 16:27:34,807] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2021-01-15 16:27:34,807] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-15 16:27:34,811] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): success_py> on 2021-01-15T07:26:31.340113+00:00
+[2021-01-15 16:27:34,813] {standard_task_runner.py:54} INFO - Started process 8782 to run task
+[2021-01-15 16:27:34,861] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'slack_dag', 'success_py', '2021-01-15T07:26:31.340113+00:00', '--job_id', '32', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/slack_noti.py', '--cfg_path', '/var/folders/4f/xnn880bn51d9945mdydbgwdw0000gn/T/tmpz0x2blc5']
+[2021-01-15 16:27:34,863] {standard_task_runner.py:78} INFO - Job 32: Subtask success_py
+[2021-01-15 16:27:34,885] {logging_mixin.py:112} INFO - Running <TaskInstance: slack_dag.success_py 2021-01-15T07:26:31.340113+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-01-15 16:27:34,896] {python_operator.py:114} INFO - Done. Returned value was: success
+[2021-01-15 16:27:34,903] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=slack_dag, task_id=success_py, execution_date=20210115T072631, start_date=20210115T072734, end_date=20210115T072734
+[2021-01-15 16:27:39,805] {local_task_job.py:102} INFO - Task exited with return code 0
